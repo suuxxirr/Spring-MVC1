@@ -15,7 +15,7 @@ public class MemberRepository {
         return instance;
     }
 
-    private MemberRepository() {
+    private MemberRepository() { // 싱글톤을 위해 private으로
     }
 
     public Member save(Member member) {
